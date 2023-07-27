@@ -11,9 +11,7 @@ function solution(year) {
 
 //3. Given the string, check if it is a palindrome.
 function solution(inputString){
-    //hice un const de una variable nueva que valdria el valor del inputString pero al reves
     const reverseInputString = inputString.split("").reverse().join("");
-    //aca lo que hice fue que compare si los resultados son estrictamente igual
     return inputString === reverseInputString
 }
 
